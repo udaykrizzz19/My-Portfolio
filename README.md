@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# Uday Krishna's Digital Canvas
 
-## Project info
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Three.js](https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 
-**URL**: https://lovable.dev/projects/b08aca53-72ce-483d-9653-180020825ec5
+A modern, animated, and interactive personal portfolio built to showcase my skills and projects. This project features a sleek dark-first design, smooth animations, and a functional contact form.
 
-## How can I edit this code?
+<div align="center">
 
-There are several ways of editing your application.
+**[✨ View] ([My Folio ](https://portfolioo-six-gamma.vercel.app/))**
 
-**Use Lovable**
+</div>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b08aca53-72ce-483d-9653-180020825ec5) and start prompting.
+## 🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+This portfolio is packed with modern features to provide a great user experience:
 
-**Use your preferred IDE**
+*   **Dark & Light Mode:** A beautiful theme toggle with a default to dark mode, saving the user's preference in their browser.
+*   **Smooth Animations:** Seamless page transitions and subtle animations on interactive elements, powered by Framer Motion.
+*   **Interactive 3D Backgrounds:** Engaging `FloatingGeometry` elements built with Three.js that add depth to each section.
+*   **Fully Responsive Design:** A mobile-first approach ensures the site looks and works perfectly on all devices, from phones to desktops.
+*   **Functional Contact Form:** A working contact form integrated with **EmailJS** to send messages directly to my inbox.
+*   **Downloadable CV:** A quick and easy way for visitors to download my resume.
+*   **Clean UI:** A custom-hidden scrollbar for a clean, uninterrupted browsing experience.
+*   **Detailed Sections:** Clearly laid out sections for my biography, skills, education timeline, and projects.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-Follow these steps:
+This project leverages a modern and efficient tech stack to deliver high performance and a great developer experience.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Category          | Technology                                                                                                  |
+| ----------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Frontend**      | [React](https://reactjs.org/), [Vite](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/)     |
+| **Styling**       | [Tailwind CSS](https://tailwindcss.com/)                                                                    |
+| **Animation**     | [Framer Motion](https://www.framer.com/motion/)                                                             |
+| **3D Graphics**   | [Three.js](https://threejs.org/)     |
+| **Icons**         | [Lucide React](https://lucide.dev/)                                                                         |
+| **Services**      | [EmailJS](https://www.emailjs.com/)                                                    |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ⚙️ Running the Project Locally
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+You need to have [Node.js](https://nodejs.org/) (version 16 or later) and `npm` installed on your machine.
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/udaykrizzz19/My-Portfolio.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd My-Portfolio
+    ```
+
+3.  **Install NPM packages:**
+    ```bash
+    npm install
+    ```
+
+### Environment Variables
+
+For the contact form to function, you need to set up your own EmailJS account and provide the necessary credentials.
+
+1.  Create a `.env.local` file in the root of the project.
+2.  Add your EmailJS credentials to the file as shown below:
+    ```.env
+    # Get your keys from https://dashboard.emailjs.com/admin
+    VITE_EMAILJS_SERVICE_ID=YOUR_SERVICE_ID
+    VITE_EMAILJS_TEMPLATE_ID=YOUR_TEMPLATE_ID
+    VITE_EMAILJS_PUBLIC_KEY=YOUR_PUBLIC_KEY
+    ```
+
+### Running the Development Server
+
+Once the dependencies are installed and the environment variables are set, you can run the development server:
+
+```bash
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b08aca53-72ce-483d-9653-180020825ec5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
