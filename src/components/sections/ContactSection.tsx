@@ -39,7 +39,6 @@ const ContactSection = () => {
     }));
   };
 
-  // 2. REPLACE THE MOCK LOGIC WITH REAL EMAILJS LOGIC
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
@@ -54,10 +53,12 @@ const ContactSection = () => {
 
     setFormStatus({ type: 'loading', message: 'Sending message...' });
 
-    // Get credentials from your .env.local file
-    const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-    const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    // --- START: HARD-CODED KEYS (NOT RECOMMENDED FOR PRODUCTION) ---
+    // The keys are now directly in the code.
+    const serviceID = 'service_cz6n43d';
+    const templateID = 'template_qs5qztn'; // Using your new Template ID
+    const publicKey = 'ItnM01lu4yfEUVd4Y';
+    // --- END: HARD-CODED KEYS ---
 
     // This object's keys MUST match the variables in your EmailJS template
     const templateParams = {
