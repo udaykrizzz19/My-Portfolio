@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Code, Palette, Zap, Heart, Download } from 'lucide-react';
-import FloatingGeometry from '../three/FloatingGeometry';
 
 const BioSection = () => {
   // Skills and expertise data
@@ -9,25 +8,25 @@ const BioSection = () => {
       icon: Code,
       title: 'Programming Languages',
       description: 'Crafting scalable and efficient applications using modern, versatile languages across web and backend development.',
-      technologies: ["JavaScript", "Python", "C", "SQL", "HTML", "CSS", "TypeScript", "Java", "C++"]
+      technologies: ["JavaScript", "TypeScript", "Python", "C++", "C", "SQL", "HTML/CSS", "Java", "PostgreSQL", "NoSQL"]
     },
     {
       icon: Palette,
       title: 'Frameworks & Libraries',
       description: 'Delivering clean, high-performance interfaces and APIs through modern frameworks focused on speed, design, and modularity.',
-      technologies: ["React.js", "Node.js", "Express.js", "FastAPI"," Tailwind CSS","Vite", "Bootstrap", "Framer Motion","React Bits","React Icons"]
+      technologies: ["React.js", "Node.js", "FastAPI", "Vite", "Tailwind CSS", "Bootstrap"," Framer Motion", "React Bits", "React Icons"]
     },
     {
       icon: Zap,
       title: 'Cloud Platforms & Dev Services',
       description: 'Deploying, scaling, and securing applications across cloud-native platforms with seamless backend integrations.',
-      technologies: ["AWS", "Azure","Docker","Kubernetes","Supabase", 'MySQL', "FastAPI","Vercel", "Netlify"," Google-Colab"]
+      technologies: ["AWS", "Azure","Docker","Kubernetes","Supabase", "Vercel", "Netlify"," Google-Colab"]
     },
     {
       icon: Heart,
       title: ' Developer & DevOps Tooling',
       description: 'Streamlining development workflows with modern IDEs, testing tools, CI/CD utilities, and version control systems.',
-      technologies: ["Git", "GitHub", "IntelliJ IDEA", "Android Studio", "Jupyter", "Anaconda", "Postman", "Figma", "VS Code", "PyCharm", "Eclipse"]
+      technologies: ["Git", "GitHub", "Postman", "Figma", "IntelliJ IDEA", "Android Studio", "Jupyter", "Anaconda", "VS Code", "PyCharm", "Eclipse"]
     }
   ];
 
@@ -88,12 +87,8 @@ const BioSection = () => {
   return (
     <section 
       id="bio-section" 
-      className="bio-section section-padding relative bg-gradient-to-b from-surface to-background"
+      className="bio-section pt-6 pb-20 relative bg-gradient-to-b from-surface to-background"
     >
-      {/* Background 3D Element */}
-      <div className="absolute bottom-0 right-0 w-1/3 h-1/2 opacity-10">
-        <FloatingGeometry section="bio" className="w-full h-full" />
-      </div>
 
       <div className="container-custom relative z-10">
         <motion.div
@@ -255,8 +250,8 @@ const BioSection = () => {
               </motion.button>
               
               <motion.a
-                href="/UdayKrishnaBanala_resume.pdf"
-                download="UdayKrishnaBanala_resume.pdf"
+                href="/UdayKrishna_Banala"
+                download="UdayKrishna_Banala.pdf"
                 className="cta-button-secondary inline-flex items-center space-x-2 px-8 py-4 rounded-radius 
                          border border-border text-text-primary hover:bg-surface-secondary 
                          transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-accent 

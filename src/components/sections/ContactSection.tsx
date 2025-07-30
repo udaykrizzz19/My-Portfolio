@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, MessageSquare, Send, CheckCircle, AlertCircle } from 'lucide-react';
-import FloatingGeometry from '../three/FloatingGeometry';
 // 1. IMPORT EMAILJS
 import emailjs from '@emailjs/browser';
 
@@ -124,10 +123,6 @@ const ContactSection = () => {
       id="contact-section" 
       className="contact-section section-padding relative bg-gradient-to-br from-background to-surface"
     >
-      {/* Background 3D Element */}
-      <div className="absolute top-1/4 left-0 w-1/4 h-1/2 opacity-10">
-        <FloatingGeometry section="contact" className="w-full h-full" />
-      </div>
 
       <div className="container-custom relative z-10">
         <motion.div

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, Github, X } from 'lucide-react';
-import FloatingGeometry from '../three/FloatingGeometry';
 
 // Project data structure
 interface Project {
@@ -44,27 +43,29 @@ const projects: Project[] = [
 },
    {
     id: '3',
-    title: 'Optical Authentication System',
-    category: 'Encryption & Security',
-    description: 'A novel image encryption technique developed using Python and OpenCV, implementing a secure, reversible process for grayscale images.',
-    technologies: ['Python', 'OpenCV', 'NumPy', 'Matplotlib', "Goolge Colab", "Encrytion", "Decryption"],
-    image: 'https://images.unsplash.com/photo-1592921195496-6ff2e332c0f6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxvY2slMjBhbmQlMjBrZXl8ZW58MHx8MHx8fDA%3D',
-    githubUrl: 'https://github.com/udaykrizzz19/OptAuth',
+    title: 'Recipe Whirls: A Full-Stack Software Solution for Culinary Enthusiasts',
+    category: 'Web & Software development',
+    description: 'A beautiful recipe app that helps you discover meals with ingredients you own, reducing food waste and inspiring creativity.',
+    technologies: [ "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Supabase", "PostgreSQL", "Supabase Auth", "Google OAuth", "TheMealDB API" ],
+    image: 'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D',
+    githubUrl: 'https://github.com/udaykrizzz19/Recipe-Whirls',
     year: '2024',
-    challenge: 'Traditional image encryption methods often struggle to balance security, speed, and reversibility, especially in low-resource environments like IoT. Many rely on predictable or resource-heavy processes, making them vulnerable to breaches or unsuitable for real-time transmission. Moreover, grayscale images, commonly used in surveillance and medical imaging, need lightweight yet robust protection. There exists a gap for a secure, matrix-based encryption system that ensures accurate decryption, maintains high fidelity, and leverages existing image processing libraries for easy deployment and performance efficiency.',
-    solution: 'This project introduces a lightweight yet secure image encryption technique using Python, FFT, and OpenCV. It encrypts grayscale images by applying Fast Fourier Transform, then obfuscates the data using a non-reproducible secret key generated from two random matrices. Decryption is achieved with inverse FFT and the complex conjugate of the key, ensuring full image restoration. This approach offers 100% accuracy in reconstruction, strong protection through unpredictable randomness, and suitability for secure visual data transfer in constrained systems like embedded or IoT environments'
+    challenge: 'Many home cooks face the daily challenge of deciding what to make with ingredients on hand, often leading to food waste and meal fatigue. Existing recipe platforms can be overwhelming, lacking the intuitive tools to turn available items into a delicious meal. This transforms cooking from a creative, enjoyable process into a frustrating chore, leaving users uninspired and searching for a dynamic, helpful kitchen companion that simplifies their daily culinary decisions.',
+    solution: 'Recipe Whirls tackles this by introducing a "Search by Items" feature, suggesting recipes based on ingredients you already have, minimizing food waste and sparking creativity. With the "Filter by Category" option, users can easily explore cuisines and meal types. By empowering users to save favorites in a personalized recipe box and contribute their own creations, our app transforms the daily task of cooking into an inspiring and delightful culinary journey, making every meal an exciting new adventure.',
+    liveUrl: 'https://recipe-whirls.vercel.app/',
   },
   {
   id: '4',
-  title: 'Portfolio Website',
+  title: 'My Portfolio Website',
   category: 'Software Development',
   description: 'Responsive portfolio website with 3D elements, smooth animations, and modern design principles.',
   technologies: ['React', 'Three.js', 'Framer Motion', 'Tailwind CSS', 'Vite', 'TypeScript','React Bits','React Icons'],
   image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D',
-  githubUrl: '#',
-  year: '2024',
+  githubUrl: 'https://github.com/udaykrizzz19/My-Portfolio',
+  year: '2025',
   challenge: 'Balancing visual appeal with performance across all devices.',
-  solution: 'Implemented progressive loading, optimized 3D rendering, and responsive design patterns to ensure fast load times and smooth interactions on both desktop and mobile devices.'
+  solution: 'Implemented progressive loading, optimized 3D rendering, and responsive design patterns to ensure fast load times and smooth interactions on both desktop and mobile devices.',
+  liveUrl: 'https://portfolioo-six-gamma.vercel.app/',
 }
 ];
 
@@ -130,10 +131,6 @@ const WorksSection = () => {
       id="works-section" 
       className="works-section section-padding relative bg-gradient-to-b from-surface to-background"
     >
-      {/* Background 3D Element */}
-      <div className="absolute top-0 right-0 w-1/3 h-1/2 opacity-10">
-        <FloatingGeometry section="works" className="w-full h-full" />
-      </div>
 
       <div className="container-custom relative z-10">
         {/* Section Header */}

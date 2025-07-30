@@ -9,9 +9,9 @@ const toggleVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-transparent",
+        default: "bg-transparent", // Removed glass-related properties
         outline:
-          "border border-input bg-transparent hover:bg-accent hover:text-accent-foreground",
+          "border border-input bg-transparent hover:bg-accent hover:text-accent-foreground", // Removed glass-related properties
       },
       size: {
         default: "h-10 px-3",
