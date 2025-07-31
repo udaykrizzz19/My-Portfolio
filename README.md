@@ -23,7 +23,7 @@
 
 <div align="center">
 
-<img src="https://cdn.dribbble.com/userupload/28117148/file/original-c0db2041822a946b9529b5ae1fdf08e8.gif" alt="Project Demo" width="250" height="250">
+<img src="https://static.wixstatic.com/media/6cef79_2ed14995a4104c3ab61566bce9992255~mv2.gif" alt="Project Demo" width="250" height="250">
 
 </div>
 
