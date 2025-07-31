@@ -15,7 +15,7 @@
 
 <div align="center">
 
-**[✨ View Live Demo](https://portfolioo-six-gamma.vercel.app/)**
+**[✨ View Live](https://portfolioo-six-gamma.vercel.app/)**
 
 </div>
 
