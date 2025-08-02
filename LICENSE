@@ -3,38 +3,29 @@ Copyright c 2024 Uday Krishna
 
 All Rights Reserved
 
-This software and its associated documentation files the Software are the proprietary property of Uday Krishna
+  This software and its associated documentation files the Software are the proprietary property of Uday Krishna
 
 1 Grant of License
 
-Permission is hereby granted free of charge to any person obtaining a copy of this Software to use the Software for the following purposes only
-
-Personal Use You may use the Software on your local machine for your own personal non commercial purposes
-
-Educational Use You may use the Software for learning experimentation and educational exploration on your local machine
-
-Viewing and Cloning You may view the source code and clone the repository for the sole purpose of local evaluation and testing
+  * Permission is hereby granted free of charge to any person obtaining a copy of this Software to use the Software for the following purposes only
+  * Personal Use You may use the Software on your local machine for your own personal non commercial purposes
+  * Educational Use You may use the Software for learning experimentation and educational exploration on your local machine
+  * Viewing and Cloning You may view the source code and clone the repository for the sole purpose of local evaluation and testing
 
 2 Restrictions
 
-The following actions are strictly prohibited under this license
-
-No Publishing You may not publish host or deploy the Software or any part of it on any publicly accessible server platform or service
-
-No Redistribution You may not redistribute sublicense rent lease or lend the Software in whole or in part to any third party
-
-No Derivative Works for Public Use You may not modify merge or create derivative works of the Software for the purpose of redistribution or public display
-
-No Commercial Use You may not use the Software for any commercial purposes whatsoever
-
-No Removal of Notices You may not remove or alter any copyright trademark or other proprietary notices from the Software
+  The following actions are strictly prohibited under this license
+    * No Publishing You may not publish host or deploy the Software or any part of it on any publicly accessible server platform or service
+    * No Redistribution You may not redistribute sublicense rent lease or lend the Software in whole or in part to any third party
+    * No Derivative Works for Public Use You may not modify merge or create derivative works of the Software for the purpose of redistribution or public display
+    * No Commercial Use You may not use the Software for any commercial purposes whatsoever
+    * No Removal of Notices You may not remove or alter any copyright trademark or other proprietary notices from the Software
 
 3 Disclaimer of Warranty
-
-THE SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND EXPRESS OR IMPLIED INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+  THE SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND EXPRESS OR IMPLIED INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
 
 4 Limitation of Liability
-
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM DAMAGES OR OTHER LIABILITY WHETHER IN AN ACTION OF CONTRACT TORT OR OTHERWISE ARISING FROM OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
-
-By cloning downloading or using this repository you agree to be bound by the terms of this license Failure to comply with these terms will result in a breach of contract and may be subject to legal action
+  
+  - IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM DAMAGES OR OTHER LIABILITY WHETHER IN AN ACTION OF CONTRACT TORT OR OTHERWISE ARISING FROM OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+  
+  - By cloning downloading or using this repository you agree to be bound by the terms of this license Failure to comply with these terms will result in a breach of contract and may be subject to legal action
