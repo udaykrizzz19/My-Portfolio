@@ -14,8 +14,8 @@ const Navbar = ({ activeSection, onSectionChange }: NavbarProps) => {
   // Navigation items matching the reference design
   const navItems = [
     { id: 'works', label: 'WORKS' },
-    { id: 'contact', label: 'CONTACT' },
     { id: 'bio', label: 'BIO' },
+    { id: 'contact', label: 'CONTACT' },
   ];
 
   // Handle scroll effect for navbar styling
