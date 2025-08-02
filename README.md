@@ -19,13 +19,13 @@
 
 </div>
 
-<br>
-
 <div align="center">
 
 <img src="https://static.wixstatic.com/media/6cef79_2ed14995a4104c3ab61566bce9992255~mv2.gif" alt="Project Demo" width="250" height="250">
 
 </div>
+
+<br>
 
 ## 📖 Table of Contents
 
@@ -33,6 +33,7 @@
 - [🚀 Key Features](#-key-features)
 - [🛠️ Architecture & Tech Stack](#️-architecture--tech-stack)
 - [⚙️ Local Development Setup](#️-local-development-setup)
+- [📜 License](#-license)
 
 ## 🎨 About The Project
 
@@ -53,14 +54,25 @@ The core philosophy was to build more than a static page; it was to create a spa
 
 This project is built with a modern, performance-oriented stack chosen for its efficiency, scalability, and exceptional developer experience.
 
-| Category | Technology |
-| :--- | :--- |
+| Category           | Technology                                                                                             |
+| :----------------- | :----------------------------------------------------------------------------------------------------- |
 | **Core Framework** | [React](https://reactjs.org/), [Vite](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/) |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
-| **Animation** | [Framer Motion](https://www.framer.com/motion/) |
-| **3D Graphics** | [Three.js](https://threejs.org/) |
-| **Icons** | [Lucide React](https://lucide.dev/) |
-| **Services** | [EmailJS](https://www.emailjs.com/) |
+| **Styling**        | [Tailwind CSS](https://tailwindcss.com/)                                                               |
+| **Animation**      | [Framer Motion](https://www.framer.com/motion/)                                                        |
+| **3D Graphics**    | [Three.js](https://threejs.org/)                                                                       |
+| **Icons**          | [Lucide React](https://lucide.dev/)                                                                    |
+| **Services**       | [EmailJS](https://www.emailjs.com/)                                                                    |
+
+
+
+> [!WARNING]
+> **Important Notice**
+>
+> This repository is for demonstration and educational purposes only. You are welcome to clone it and run it on your **local environment** to see how it works.
+>
+> **However, you are strictly prohibited from publishing, hosting, or re-distributing this code or any of its assets as your own work.** All rights are reserved.
+
+<br>
 
 ## ⚙️ Local Development Setup
 
@@ -106,6 +118,3 @@ Start the development server with:
 
 ```bash
 npm run dev
-
-
-
