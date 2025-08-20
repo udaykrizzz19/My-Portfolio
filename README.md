@@ -15,12 +15,6 @@
 
 <div align="center">
 
-**[✨ View Live](https://portfolioo-six-gamma.vercel.app/)**
-
-</div>
-
-<div align="center">
-
 <img src="https://static.wixstatic.com/media/6cef79_2ed14995a4104c3ab61566bce9992255~mv2.gif" alt="Project Demo" width="250" height="250">
 
 </div>
