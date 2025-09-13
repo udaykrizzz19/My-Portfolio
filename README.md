@@ -23,7 +23,7 @@
 
 
 **[✨ View Live](https://portfolioo-six-gamma.vercel.app/)**
-## 📖 Table of Contents
+## 📖 Table of Content
 
 - [About The Project](#-about-the-project)
 - [🚀 Key Features](#-key-features)
