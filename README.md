@@ -1,6 +1,6 @@
 <div align="center">
 
-# Uday Krishna's Digital Canvas
+# Uday Krishna's Canvas
 
 ### An Immersive Portfolio Experience
 
