@@ -41,7 +41,6 @@ The core philosophy was to build more than a static page; it was to create a spa
 
 -   **🎨 Themed Experience:** A beautiful theme toggle between **Dark & Light Mode**. User preference is automatically saved in their browser for a consistent experience on return visits.
 -   **🎬 Fluid & Animated UI:** Powered by **Framer Motion**, the interface features seamless page transitions and subtle, delightful micro-interactions on all interactive elements.
--   **🔮 Interactive 3D Worlds:** Engaging `FloatingGeometry` elements built with **Three.js** add a layer of depth and interactivity to each section, making the experience dynamic and unique.
 -   **📱 Fully Responsive Design:** A mobile-first approach ensures the site looks and functions flawlessly across all devices, from small mobile screens to large desktop monitors.
 -   **📫 Seamless Communication:** A fully functional contact form integrated with **EmailJS** delivers messages directly to my inbox, providing a reliable line of communication.
 -   **📄 One-Click CV Access:** A prominent "Download CV" button allows recruiters and visitors to easily access my professional resume.
