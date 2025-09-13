@@ -97,7 +97,7 @@ Ensure you have [Node.js](https://nodejs.org/) (version 16 or later) and `npm` i
 
 ### **Environment Variables**
 
-For the contact form to work, you must set up your own **EmailJS** account.
+For the contact form to work, you must set up your own **EmailJS** account for this.
 
 1.  Create a `.env.local` file in the project's root directory.
 2.  Add your EmailJS credentials as follows:
