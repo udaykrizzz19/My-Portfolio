@@ -76,7 +76,7 @@ To get a local copy up and running, please follow these steps.
 
 ### **Prerequisites**
 
-Ensure you have [Node.js](https://nodejs.org/) (version 16 or later) and `npm` installed.
+Ensure you have [Node.js](https://nodejs.org/) (version 16 or later) and `npm` installed
 
 ### **Installation & Setup**
 
