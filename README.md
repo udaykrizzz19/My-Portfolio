@@ -84,7 +84,7 @@ Ensure you have [Node.js](https://nodejs.org/) (version 16 or later) and `npm` i
     git clone https://github.com/udaykrizzz19/My-Portfolio.git
     ```
 
-2.  **Navigate to the Project Directory**
+2.  **Navigate to Project Directory**
     ```bash
     cd My-Portfolio
     ```
